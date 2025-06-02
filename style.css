@@ -1,0 +1,71 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.nav-link {
+  margin-left: 1rem;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+section.bg-primary {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+}
+section.bg-primary h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#about h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#about p {
+  font-size: 1.1rem;
+}
+#projects h2 {
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.card-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* Contact Section */
+#contact h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+#contactForm input,
+#contactForm textarea {
+  border-radius: 8px;
+  box-shadow: none;
+  border: 1px solid #ced4da;
+}
+
+#contactForm button {
+  border-radius: 8px;
+  padding: 10px 20px;
+}
+
+/* Footer */
+footer {
+  background-color: #212529;
+  font-size: 0.9rem;
+}
